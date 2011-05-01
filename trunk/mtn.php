@@ -10,7 +10,7 @@ require_once('classes/other.php');
 login_check();
 
 include(TEMPLATE_DIR.'header.php');
-include('mtn/config.php');
+include('mtn/mtnconfig.php');
 ?>
 <br />
 <center><h2>Movie Thumbnailer</h2>
