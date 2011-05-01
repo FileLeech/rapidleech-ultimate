@@ -42,7 +42,7 @@ session_start();
 define('CONFIG_DIR', 'configs/');
 require_once(CONFIG_DIR.'setup.php');
 define ( 'TEMPLATE_DIR', 'templates/'.$options['template_used'].'/' );
-define ('CREDITS', '<span class="rev-dev">Integrated in </span><a href="http://www.rapidleech.com/"  target="_blank">RapidLeech</a><br><small class="small-credits">By jmsmarcelo</small><br />');
+define ('CREDITS', '<span class="rev-dev">Integrated into </span><a href="http://www.rapidleech.com/">RapidLeech</a><br><small class="small-credits">By jmsmarcelo</small><br />');
 // Include other useful functions
 require_once('classes/other.php');
 
