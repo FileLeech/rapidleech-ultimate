@@ -82,11 +82,6 @@ else
 	$lang_id = $default_language;
 }
 ?><center>
-<!-- Output basic HTML code -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>File Manager</title>
 <style type="text/css">
 <!--
@@ -824,7 +819,4 @@ function ren()
 print CREDITS;
 ?>
 </body>
-</html>
-<!-- Output basic HTMl code -done -->
-
 </center>
