@@ -1,7 +1,7 @@
 <?php
 define('RAPIDLEECH', 'yes');
 define('CONFIG_DIR', 'configs/');
-define ('CREDITS', '<small>By jmsmarcelo</small><br />');
+define ('CREDITS', '<small class="small-credits">By jmsmarcelo</small><br />');
 require_once(CONFIG_DIR.'setup.php');
 define ( 'TEMPLATE_DIR', 'templates/'.$options['template_used'].'/' );
 // Include other useful functions
