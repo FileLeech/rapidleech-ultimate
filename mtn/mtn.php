@@ -81,7 +81,7 @@ foreach ($video as $vdo)
 		echo '<BR />Error in generating <b><i>'.$vdo.'</i></b> <BR />';
 	}
 
-             echo "<a href=".$download_dir.$vdofile."><img src=\"$image\"></a>";
+             echo "<a href=\"$image\"><img src=\"$image\"></a>";
             
 }
 }
