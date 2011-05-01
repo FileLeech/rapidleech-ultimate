@@ -41,7 +41,7 @@ while (false !== ($file = readdir ($handle))){
 ?>    
   <tr>
     <td align="right"><b> &nbsp; <a href='md5.php?file=<?php echo $file; ?>'><?php echo $file; ?></a> &nbsp; </b></td>
-    <td align="center"> &nbsp; <?php echo filesize($path."/".$file); ?> <small>bytes</small> &nbsp; </td>
+    <td align="center"> &nbsp; <?php echo bytesToKbOrMbOrGb(filesize($path."/".$file)); ?> <small>bytes</small> &nbsp; </td>
     <td><b> &nbsp; <?php echo md5_file($path."/".$file); ?> &nbsp; </b></td>
   </tr>
 <?php
